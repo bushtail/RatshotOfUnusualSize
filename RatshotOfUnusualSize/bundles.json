@@ -1,0 +1,12 @@
+﻿{
+    "manifest": [
+        {
+            "key": "ammo_50bmg_ratshot.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "ammobox_50bmg_ratshot.bundle",
+            "dependencyKeys": []
+        }
+    ]
+}
