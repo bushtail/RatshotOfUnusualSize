@@ -63,11 +63,11 @@ jobs:
             "$INNER"/ "$TARGET/"
           BUNDLES_DIR=$(find . -type d -name "bundles" | head -n 1)
           BUNDLES_JSON=$(find . -type f -name "bundles.json" | head -n 1)
-          DB_DIR=$(find . -type d -name "db" | head -n 1)
           if [ -n "$BUNDLES_DIR" ] && [ -n "$BUNDLES_JSON" ]; then
             echo "Found bundles/ and bundles.json, adding to package"
             rsync -av "$BUNDLES_DIR"/ "$TARGET/bundles/"
           fi
+          DB_DIR=$(find . -type d -name "db" | head -n 1)
           if [ -n "$DB_DIR" ]; then
             echo "Found db/, adding to package"
             rsync -av "$DB_DIR"/ "$TARGET/bundles/"
