@@ -24,7 +24,8 @@
             "PenetrationPower": 1,
             "PenetrationPowerDeviation": 1,
             "StaminaBurnPerDamage": 0.1,
-            "StackMaxSize": 10
+            "StackMaxSize": 10,
+            "Caliber": "Caliber127x99"
         },
         "locales": {
             "en": {

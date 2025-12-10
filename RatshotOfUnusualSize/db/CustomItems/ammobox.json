@@ -8,6 +8,11 @@
                 "path": "ammobox_50bmg_ratshot.bundle",
                 "rcid": ""
             },
+            "ammoCaliber": "Caliber127x99",
+            "StackMaxRandom": 10,
+            "StackMaxSize": 1,
+            "StackMinRandom": 10,
+            "StackObjectsCount": 1,
             "StackSlots": [
                 {
                     "_id": "6938b6998db02faa8e0ef0aa",
@@ -22,7 +27,8 @@
                                 ]
                             }
                         ]
-                    }
+                    },
+                    "_proto": "5748538b2459770af276a261"
                 }
             ]
         },
