@@ -66,6 +66,7 @@ jobs:
           if [ -n "$BUNDLES_DIR" ] && [ -n "$BUNDLES_JSON" ]; then
             echo "Found bundles/ and bundles.json, adding to package"
             rsync -av "$BUNDLES_DIR"/ "$TARGET/bundles/"
+            rsync -av "$BUNDLES_JSON" "$TARGET/"
           fi
           DB_DIR=$(find . -type d -name "db" | head -n 1)
           if [ -n "$DB_DIR" ]; then
