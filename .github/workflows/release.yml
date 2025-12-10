@@ -68,6 +68,7 @@ jobs:
             rsync -av "$BUNDLES_DIR"/ "$TARGET/bundles/"
           fi
           DB_DIR=$(find . -type d -name "db" | head -n 1)
+          echo "$DB_DIR"
           if [ -n "$DB_DIR" ]; then
             echo "Found db/, adding to package"
             rsync -av "$DB_DIR"/ "$TARGET/bundles/"
