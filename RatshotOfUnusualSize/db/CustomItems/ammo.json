@@ -1,0 +1,66 @@
+﻿{
+    "69363bc9d09da95973053053": {
+        "itemTplToClone": "67dc212493ce32834b0fa446",
+        "parentId": "5485a8684bdc2da71d8b4567",
+        "handbookParentId": "5b47574386f77428ca22b33b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ammo_50bmg_ratshot.bundle",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "Damage": 1.0,
+            "ProjectileCount": 1000,
+            "BuckshotBullets": 1000,
+            "Weight": 0.115,
+            "AmmoAccr": 0,
+            "AmmoType": "buckshot",
+            "RicochetChance": 0,
+            "AmmoTooltipClass": "SoftTargets",
+            "ArmorDamage": 15,
+            "BallisticCoeficient": 0.025,
+            "BulletDiameterMillimeters": 0.0,
+            "BulletMassGram": 0.01,
+            "PenetrationPower": 1,
+            "PenetrationPowerDeviation": 1,
+            "StaminaBurnPerDamage": 0.1,
+            "StackMaxSize": 10
+        },
+        "locales": {
+            "en": {
+                "name": ".50 BMG Ratshot",
+                "shortName": ".50 Rat",
+                "description": "A .50 BMG (12.7x99mm NATO) Ratshot cartridge, developed in Florin and adopted in [ERR_DATE_NULL] for the Barrett M107, primarily designed for the eradication of rodents of unusual size. The cartridge has gained a significant alternate use as an anti-personnel cartridge as its count of one thousand lead pellets deliver a devastating blow to multiple combatants if given enough time to expand."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 3000,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": null,
+        "addtoTraders": false,
+        "traders": {},
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "masterySections": null,
+        "addWeaponPreset": false,
+        "weaponPresets": null,
+        "addtoHallOfFame": false,
+        "hallOfFameSlots": null,
+        "addtoSpecialSlots": false,
+        "addtoGeneratorAsFuel": false,
+        "generatorFuelSlotStages": null,
+        "addtoHideoutPosterSlots": false,
+        "addPosterToMaps": false,
+        "posterSpawnProbability": null,
+        "addtoStatuetteSlots": false,
+        "addCaliberToAllCloneLocations": true,
+        "addtoStaticAmmo": false,
+        "staticAmmoProbability": null,
+        "addtoEmptyPropSlots": false,
+        "emptyPropSlot": null,
+        "addtoSecureFilters": false
+    }
+}

@@ -2,11 +2,19 @@
     "manifest": [
         {
             "key": "ammo_50bmg_ratshot.bundle",
-            "dependencyKeys": []
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
         },
         {
             "key": "ammobox_50bmg_ratshot.bundle",
-            "dependencyKeys": []
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
         }
     ]
 }

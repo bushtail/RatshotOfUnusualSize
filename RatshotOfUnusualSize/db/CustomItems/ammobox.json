@@ -1,0 +1,66 @@
+{
+    "6938b4c78db02faa8e0ef0a9": {
+        "itemTplToClone": "65702558cfc010a0f5006a25",
+        "parentId": "543be5cb4bdc2deb348b4568",
+        "handbookParentId": "5b47574386f77428ca22b33c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ammobox_50bmg_ratshot.bundle",
+                "rcid": ""
+            },
+            "StackSlots": [
+                {
+                    "_id": "6938b6998db02faa8e0ef0aa",
+                    "_max_count": 10,
+                    "_name": "cartridges",
+                    "_parent": "6938b4c78db02faa8e0ef0a9",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "69363bc9d09da95973053053"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": ".50 BMG Ratshot ammo pack (10 pcs)",
+                "shortName": ".50 Rat",
+                "description": "A box of .50 BMG Ratshot cartridges, 10 pieces."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 1000,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": null,
+        "addtoTraders": false,
+        "traders": {},
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "staticLootContainers": [],
+        "masteries": false,
+        "masterySections": null,
+        "addWeaponPreset": false,
+        "weaponPresets": null,
+        "addtoHallOfFame": false,
+        "hallOfFameSlots": null,
+        "addtoSpecialSlots": false,
+        "addtoGeneratorAsFuel": false,
+        "generatorFuelSlotStages": null,
+        "addtoHideoutPosterSlots": false,
+        "addPosterToMaps": false,
+        "posterSpawnProbability": null,
+        "addtoStatuetteSlots": false,
+        "addCaliberToAllCloneLocations": false,
+        "addtoStaticAmmo": false,
+        "staticAmmoProbability": null,
+        "addtoEmptyPropSlots": false,
+        "emptyPropSlot": null,
+        "addtoSecureFilters": false
+    }
+}
