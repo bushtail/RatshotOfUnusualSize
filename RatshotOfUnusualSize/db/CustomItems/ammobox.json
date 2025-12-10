@@ -8,6 +8,7 @@
                 "path": "ammobox_50bmg_ratshot.bundle",
                 "rcid": ""
             },
+            "Name": "ammo_box_127x99_xx_rat",
             "ammoCaliber": "Caliber127x99",
             "StackMaxRandom": 10,
             "StackMaxSize": 1,

@@ -17,7 +17,4 @@
         <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7" />
         <PackageReference Include="WTT-ServerCommonLib" Version="2.0.2" />
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="bundles\" />
-    </ItemGroup>
 </Project>
